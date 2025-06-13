@@ -1,0 +1,67 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 20px;
+      background: #00203fff;
+      color: #333;
+}
+h1 {
+    
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500%;
+}
+.recipe {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #adefd1ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+    
+.section-title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+h2 {
+    color: #d35400;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+div{
+    display: grid;
+    text-align: left;
+} 
+
+.recipe-grid{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+@media (max-width: 768px) {
+  .recipe-grid {
+    grid-template-columns: 1fr; 
+  }
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo h1 {
+  margin: 10px 0 0 0;
+  color: white;
+}
